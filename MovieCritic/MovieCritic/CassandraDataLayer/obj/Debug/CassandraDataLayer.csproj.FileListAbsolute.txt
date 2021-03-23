@@ -1,0 +1,99 @@
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\CassandraDataLayer.dll.config
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\CassandraDataLayer.dll
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\CassandraDataLayer.pdb
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Cassandra.dll
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\LZ4.dll
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Newtonsoft.Json.dll
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\System.Threading.Tasks.Dataflow.dll
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Cassandra.xml
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Newtonsoft.Json.xml
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\System.Threading.Tasks.Dataflow.xml
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.csprojResolveAssemblyReference.cache
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.dll
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.pdb
+C:\Users\neman\Desktop\CassandraWinFormsSample\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\CassandraDataLayer.dll.config
+C:\Users\neman\Desktop\CassandraWinFormsSample\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\CassandraDataLayer.dll
+C:\Users\neman\Desktop\CassandraWinFormsSample\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\CassandraDataLayer.pdb
+C:\Users\neman\Desktop\CassandraWinFormsSample\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Cassandra.dll
+C:\Users\neman\Desktop\CassandraWinFormsSample\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\LZ4.dll
+C:\Users\neman\Desktop\CassandraWinFormsSample\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\neman\Desktop\CassandraWinFormsSample\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\neman\Desktop\CassandraWinFormsSample\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\neman\Desktop\CassandraWinFormsSample\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\neman\Desktop\CassandraWinFormsSample\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\neman\Desktop\CassandraWinFormsSample\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Cassandra.xml
+C:\Users\neman\Desktop\CassandraWinFormsSample\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\neman\Desktop\CassandraWinFormsSample\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\neman\Desktop\CassandraWinFormsSample\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\neman\Desktop\CassandraWinFormsSample\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\neman\Desktop\CassandraWinFormsSample\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Users\neman\Desktop\CassandraWinFormsSample\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.csprojAssemblyReference.cache
+C:\Users\neman\Desktop\CassandraWinFormsSample\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.csproj.CoreCompileInputs.cache
+C:\Users\neman\Desktop\CassandraWinFormsSample\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.csproj.CopyComplete
+C:\Users\neman\Desktop\CassandraWinFormsSample\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.dll
+C:\Users\neman\Desktop\CassandraWinFormsSample\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.pdb
+C:\Users\neman\Desktop\MovieCritic\CassandraDataLayer\bin\Debug\CassandraDataLayer.dll.config
+C:\Users\neman\Desktop\MovieCritic\CassandraDataLayer\bin\Debug\CassandraDataLayer.dll
+C:\Users\neman\Desktop\MovieCritic\CassandraDataLayer\bin\Debug\CassandraDataLayer.pdb
+C:\Users\neman\Desktop\MovieCritic\CassandraDataLayer\bin\Debug\Cassandra.dll
+C:\Users\neman\Desktop\MovieCritic\CassandraDataLayer\bin\Debug\LZ4.dll
+C:\Users\neman\Desktop\MovieCritic\CassandraDataLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\neman\Desktop\MovieCritic\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\neman\Desktop\MovieCritic\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\neman\Desktop\MovieCritic\CassandraDataLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\neman\Desktop\MovieCritic\CassandraDataLayer\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\neman\Desktop\MovieCritic\CassandraDataLayer\bin\Debug\Cassandra.xml
+C:\Users\neman\Desktop\MovieCritic\CassandraDataLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\neman\Desktop\MovieCritic\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\neman\Desktop\MovieCritic\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\neman\Desktop\MovieCritic\CassandraDataLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\neman\Desktop\MovieCritic\CassandraDataLayer\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Users\neman\Desktop\MovieCritic\CassandraDataLayer\obj\Debug\CassandraDataLayer.csproj.CoreCompileInputs.cache
+C:\Users\neman\Desktop\MovieCritic\CassandraDataLayer\obj\Debug\CassandraDataLayer.csproj.CopyComplete
+C:\Users\neman\Desktop\MovieCritic\CassandraDataLayer\obj\Debug\CassandraDataLayer.dll
+C:\Users\neman\Desktop\MovieCritic\CassandraDataLayer\obj\Debug\CassandraDataLayer.pdb
+C:\Users\neman\Desktop\MovieCritic\CassandraDataLayer\obj\Debug\CassandraDataLayer.csprojAssemblyReference.cache
+C:\Users\neman\Downloads\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\MovieCritic\CassandraDataLayer\bin\Debug\CassandraDataLayer.dll.config
+C:\Users\neman\Downloads\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\MovieCritic\CassandraDataLayer\bin\Debug\CassandraDataLayer.dll
+C:\Users\neman\Downloads\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\MovieCritic\CassandraDataLayer\bin\Debug\CassandraDataLayer.pdb
+C:\Users\neman\Downloads\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\MovieCritic\CassandraDataLayer\bin\Debug\Cassandra.dll
+C:\Users\neman\Downloads\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\MovieCritic\CassandraDataLayer\bin\Debug\LZ4.dll
+C:\Users\neman\Downloads\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\MovieCritic\CassandraDataLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\neman\Downloads\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\MovieCritic\CassandraDataLayer\bin\Debug\Cassandra.xml
+C:\Users\neman\Downloads\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\MovieCritic\CassandraDataLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\neman\Downloads\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\MovieCritic\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\neman\Downloads\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\MovieCritic\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\neman\Downloads\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\MovieCritic\CassandraDataLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\neman\Downloads\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\MovieCritic\CassandraDataLayer\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Users\neman\Downloads\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\MovieCritic\CassandraDataLayer\obj\Debug\CassandraDataLayer.csprojAssemblyReference.cache
+C:\Users\neman\Downloads\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\MovieCritic\CassandraDataLayer\obj\Debug\CassandraDataLayer.csproj.CoreCompileInputs.cache
+C:\Users\neman\Downloads\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\MovieCritic\CassandraDataLayer\obj\Debug\CassandraDataLayer.csproj.CopyComplete
+C:\Users\neman\Downloads\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\MovieCritic\CassandraDataLayer\obj\Debug\CassandraDataLayer.dll
+C:\Users\neman\Downloads\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\BeautifulMindsTeam-moviecritic-cassandra-database-f5c386231a29\MovieCritic\CassandraDataLayer\obj\Debug\CassandraDataLayer.pdb
+C:\Users\neman\Documents\moviecritic-cassandra-database\MovieCritic\CassandraDataLayer\bin\Debug\CassandraDataLayer.dll.config
+C:\Users\neman\Documents\moviecritic-cassandra-database\MovieCritic\CassandraDataLayer\bin\Debug\CassandraDataLayer.dll
+C:\Users\neman\Documents\moviecritic-cassandra-database\MovieCritic\CassandraDataLayer\bin\Debug\CassandraDataLayer.pdb
+C:\Users\neman\Documents\moviecritic-cassandra-database\MovieCritic\CassandraDataLayer\bin\Debug\Cassandra.dll
+C:\Users\neman\Documents\moviecritic-cassandra-database\MovieCritic\CassandraDataLayer\bin\Debug\LZ4.dll
+C:\Users\neman\Documents\moviecritic-cassandra-database\MovieCritic\CassandraDataLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\neman\Documents\moviecritic-cassandra-database\MovieCritic\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\neman\Documents\moviecritic-cassandra-database\MovieCritic\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\neman\Documents\moviecritic-cassandra-database\MovieCritic\CassandraDataLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\neman\Documents\moviecritic-cassandra-database\MovieCritic\CassandraDataLayer\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\neman\Documents\moviecritic-cassandra-database\MovieCritic\CassandraDataLayer\bin\Debug\Cassandra.xml
+C:\Users\neman\Documents\moviecritic-cassandra-database\MovieCritic\CassandraDataLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\neman\Documents\moviecritic-cassandra-database\MovieCritic\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\neman\Documents\moviecritic-cassandra-database\MovieCritic\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\neman\Documents\moviecritic-cassandra-database\MovieCritic\CassandraDataLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\neman\Documents\moviecritic-cassandra-database\MovieCritic\CassandraDataLayer\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Users\neman\Documents\moviecritic-cassandra-database\MovieCritic\CassandraDataLayer\obj\Debug\CassandraDataLayer.csprojAssemblyReference.cache
+C:\Users\neman\Documents\moviecritic-cassandra-database\MovieCritic\CassandraDataLayer\obj\Debug\CassandraDataLayer.csproj.CoreCompileInputs.cache
+C:\Users\neman\Documents\moviecritic-cassandra-database\MovieCritic\CassandraDataLayer\obj\Debug\CassandraDataLayer.csproj.CopyComplete
+C:\Users\neman\Documents\moviecritic-cassandra-database\MovieCritic\CassandraDataLayer\obj\Debug\CassandraDataLayer.dll
+C:\Users\neman\Documents\moviecritic-cassandra-database\MovieCritic\CassandraDataLayer\obj\Debug\CassandraDataLayer.pdb

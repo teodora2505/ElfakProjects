@@ -1,0 +1,129 @@
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem - Copy - Copy\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.dll.config
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem - Copy - Copy\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem - Copy - Copy\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.pdb
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem - Copy - Copy\Elektronski Parking Sistem.Podaci\bin\Debug\MySql.Data.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem - Copy - Copy\Elektronski Parking Sistem.Podaci\bin\Debug\Google.Protobuf.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem - Copy - Copy\Elektronski Parking Sistem.Podaci\bin\Debug\MySql.Data.xml
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem - Copy - Copy\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski_Parking_Sistem.Podaci.Properties.Resources.resources
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem - Copy - Copy\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.GenerateResource.cache
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem - Copy - Copy\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.CoreCompileInputs.cache
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem - Copy - Copy\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.CopyComplete
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem - Copy - Copy\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem - Copy - Copy\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.pdb
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem - Copy - Copy\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csprojAssemblyReference.cache
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem1\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.dll.config
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem1\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem1\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.pdb
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem1\Elektronski Parking Sistem.Podaci\bin\Debug\MySql.Data.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem1\Elektronski Parking Sistem.Podaci\bin\Debug\Google.Protobuf.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem1\Elektronski Parking Sistem.Podaci\bin\Debug\MySql.Data.xml
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem1\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csprojAssemblyReference.cache
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem1\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski_Parking_Sistem.Podaci.Properties.Resources.resources
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem1\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.GenerateResource.cache
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem1\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.CoreCompileInputs.cache
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem1\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.CopyComplete
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem1\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem1\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.pdb
+C:\Users\neman\OneDrive\Desktop\ElPS\Aplikacija\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.dll.config
+C:\Users\neman\OneDrive\Desktop\ElPS\Aplikacija\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.dll
+C:\Users\neman\OneDrive\Desktop\ElPS\Aplikacija\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.pdb
+C:\Users\neman\OneDrive\Desktop\ElPS\Aplikacija\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\MySql.Data.dll
+C:\Users\neman\OneDrive\Desktop\ElPS\Aplikacija\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Google.Protobuf.dll
+C:\Users\neman\OneDrive\Desktop\ElPS\Aplikacija\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\MySql.Data.xml
+C:\Users\neman\OneDrive\Desktop\ElPS\Aplikacija\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csprojAssemblyReference.cache
+C:\Users\neman\OneDrive\Desktop\ElPS\Aplikacija\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski_Parking_Sistem.Podaci.Properties.Resources.resources
+C:\Users\neman\OneDrive\Desktop\ElPS\Aplikacija\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.GenerateResource.cache
+C:\Users\neman\OneDrive\Desktop\ElPS\Aplikacija\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.CoreCompileInputs.cache
+C:\Users\neman\OneDrive\Desktop\ElPS\Aplikacija\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.CopyComplete
+C:\Users\neman\OneDrive\Desktop\ElPS\Aplikacija\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.dll
+C:\Users\neman\OneDrive\Desktop\ElPS\Aplikacija\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.pdb
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csprojAssemblyReference.cache
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski_Parking_Sistem.Podaci.Properties.Resources.resources
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.GenerateResource.cache
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.CoreCompileInputs.cache
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.pdb
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.dll.config
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.pdb
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\MySql.Data.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Google.Protobuf.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\MySql.Data.xml
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.CopyComplete
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.dll.config
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.pdb
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\MySql.Data.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Google.Protobuf.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\MySql.Data.xml
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski_Parking_Sistem.Podaci.Properties.Resources.resources
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.GenerateResource.cache
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.CoreCompileInputs.cache
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.CopyComplete
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.pdb
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csprojAssemblyReference.cache
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.dll.config
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.pdb
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\MySql.Data.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Google.Protobuf.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\MySql.Data.xml
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csprojAssemblyReference.cache
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski_Parking_Sistem.Podaci.Properties.Resources.resources
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.GenerateResource.cache
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.CoreCompileInputs.cache
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.CopyComplete
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.pdb
+C:\Users\neman\OneDrive\Desktop\ElPS novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.dll.config
+C:\Users\neman\OneDrive\Desktop\ElPS novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.dll
+C:\Users\neman\OneDrive\Desktop\ElPS novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.pdb
+C:\Users\neman\OneDrive\Desktop\ElPS novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\MySql.Data.dll
+C:\Users\neman\OneDrive\Desktop\ElPS novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Google.Protobuf.dll
+C:\Users\neman\OneDrive\Desktop\ElPS novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\MySql.Data.xml
+C:\Users\neman\OneDrive\Desktop\ElPS novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csprojAssemblyReference.cache
+C:\Users\neman\OneDrive\Desktop\ElPS novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski_Parking_Sistem.Podaci.Properties.Resources.resources
+C:\Users\neman\OneDrive\Desktop\ElPS novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.GenerateResource.cache
+C:\Users\neman\OneDrive\Desktop\ElPS novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.CoreCompileInputs.cache
+C:\Users\neman\OneDrive\Desktop\ElPS novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.CopyComplete
+C:\Users\neman\OneDrive\Desktop\ElPS novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.dll
+C:\Users\neman\OneDrive\Desktop\ElPS novo\Elektronski Parking Sistem novo\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.pdb
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.dll.config
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.pdb
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\MySql.Data.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Google.Protobuf.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\MySql.Data.xml
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski_Parking_Sistem.Podaci.Properties.Resources.resources
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.GenerateResource.cache
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.CoreCompileInputs.cache
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.CopyComplete
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.dll
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.pdb
+C:\Users\neman\OneDrive\Desktop\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csprojAssemblyReference.cache
+C:\Users\neman\OneDrive\Desktop\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.dll.config
+C:\Users\neman\OneDrive\Desktop\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.dll
+C:\Users\neman\OneDrive\Desktop\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.pdb
+C:\Users\neman\OneDrive\Desktop\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\MySql.Data.dll
+C:\Users\neman\OneDrive\Desktop\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Google.Protobuf.dll
+C:\Users\neman\OneDrive\Desktop\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\MySql.Data.xml
+C:\Users\neman\OneDrive\Desktop\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csprojAssemblyReference.cache
+C:\Users\neman\OneDrive\Desktop\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski_Parking_Sistem.Podaci.Properties.Resources.resources
+C:\Users\neman\OneDrive\Desktop\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.GenerateResource.cache
+C:\Users\neman\OneDrive\Desktop\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.CoreCompileInputs.cache
+C:\Users\neman\OneDrive\Desktop\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.CopyComplete
+C:\Users\neman\OneDrive\Desktop\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.dll
+C:\Users\neman\OneDrive\Desktop\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.pdb
+C:\Users\neman\Desktop\FAX\Nemanja\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.dll.config
+C:\Users\neman\Desktop\FAX\Nemanja\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.dll
+C:\Users\neman\Desktop\FAX\Nemanja\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Elektronski Parking Sistem.Podaci.pdb
+C:\Users\neman\Desktop\FAX\Nemanja\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\Google.Protobuf.dll
+C:\Users\neman\Desktop\FAX\Nemanja\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\bin\Debug\MySql.Data.xml
+C:\Users\neman\Desktop\FAX\Nemanja\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csprojAssemblyReference.cache
+C:\Users\neman\Desktop\FAX\Nemanja\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski_Parking_Sistem.Podaci.Properties.Resources.resources
+C:\Users\neman\Desktop\FAX\Nemanja\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.GenerateResource.cache
+C:\Users\neman\Desktop\FAX\Nemanja\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.CoreCompileInputs.cache
+C:\Users\neman\Desktop\FAX\Nemanja\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.csproj.CopyComplete
+C:\Users\neman\Desktop\FAX\Nemanja\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.dll
+C:\Users\neman\Desktop\FAX\Nemanja\Nemanja 3\Softversko inzenjerstvo\Elektronski Parking Sistem\Elektronski Parking Sistem\Elektronski Parking Sistem.Podaci\obj\Debug\Elektronski Parking Sistem.Podaci.pdb
