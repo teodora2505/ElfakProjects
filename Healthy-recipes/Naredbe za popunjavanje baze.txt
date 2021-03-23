@@ -1,0 +1,450 @@
+CREATE (n:Ukus {nazivUkusa:'slatko'});
+CREATE (n:Ukus {nazivUkusa:'slano'});
+CREATE (n:Ukus {nazivUkusa:'kiselo'});
+CREATE (n:Ukus {nazivUkusa:'ljuto'});
+CREATE (n:Ukus {nazivUkusa:'gorko'});
+
+CREATE (n:Obrok {nazivObroka:'dorucak', vremeOd:'8', vremeDo:'10'});
+CREATE (n:Obrok {nazivObroka:'rucak', vremeOd:'13', vremeDo:'15'});
+CREATE (n:Obrok {nazivObroka:'uzina'});
+CREATE (n:Obrok {nazivObroka:'vecera', vremeOd:'18', vremeDo:'20'});
+
+CREATE (n:Ocena {ocena:'1'});
+CREATE (n:Ocena {ocena:'2'});
+CREATE (n:Ocena {ocena:'3'});
+CREATE (n:Ocena {ocena:'4'});
+CREATE (n:Ocena {ocena:'5'});
+
+CREATE (n:Sastojak {nazivSastojka:'voda'});
+CREATE (n:Sastojak {nazivSastojka:'jaja'});
+CREATE (n:Sastojak {nazivSastojka:'mleko'});
+CREATE (n:Sastojak {nazivSastojka:'secer'});
+CREATE (n:Sastojak {nazivSastojka:'so'});
+CREATE (n:Sastojak {nazivSastojka:'kakao'});
+CREATE (n:Sastojak {nazivSastojka:'suncokretovo ulje'});
+CREATE (n:Sastojak {nazivSastojka:'psenicno brasno'});
+CREATE (n:Sastojak {nazivSastojka:'griz'});
+CREATE (n:Sastojak {nazivSastojka:'pavlaka'});
+CREATE (n:Sastojak {nazivSastojka:'sira'});
+CREATE (n:Sastojak {nazivSastojka:'prasak za pecivo'});
+CREATE (n:Sastojak {nazivSastojka:'majonez'});
+CREATE (n:Sastojak {nazivSastojka:'jogurt'});
+CREATE (n:Sastojak {nazivSastojka:'kiselo mleko'});
+CREATE (n:Sastojak {nazivSastojka:'kukuruzno brasno'});
+CREATE (n:Sastojak {nazivSastojka:'maslinovo ulje'});
+CREATE (n:Sastojak {nazivSastojka:'med'});
+CREATE (n:Sastojak {nazivSastojka:'stevija'});
+CREATE (n:Sastojak {nazivSastojka:'sojino mleko'});
+
+MATCH (sastojak1:Sastojak), (sastojak2:Sastojak)
+WHERE sastojak1.nazivSastojka='secer' AND sastojak2.nazivSastojka='stevija'
+CREATE (sastojak1)-[:ALTERNATIVA]->(sastojak2);
+MATCH (sastojak1:Sastojak), (sastojak2:Sastojak)
+WHERE sastojak1.nazivSastojka='secer' AND sastojak2.nazivSastojka='med'
+CREATE (sastojak1)-[:ALTERNATIVA]->(sastojak2);
+MATCH (sastojak1:Sastojak), (sastojak2:Sastojak)
+WHERE sastojak1.nazivSastojka='mleko' AND sastojak2.nazivSastojka='sojino mleko'
+CREATE (sastojak1)-[:ALTERNATIVA]->(sastojak2);
+MATCH (sastojak1:Sastojak), (sastojak2:Sastojak)
+WHERE sastojak1.nazivSastojka='suncokretovo ulje' AND sastojak2.nazivSastojka='maslinovo ulje'
+CREATE (sastojak1)-[:ALTERNATIVA]->(sastojak2);
+MATCH (sastojak1:Sastojak), (sastojak2:Sastojak)
+WHERE sastojak1.nazivSastojka='psenicno brasno' AND sastojak2.nazivSastojka='kukuruzno brasno'
+CREATE (sastojak1)-[:ALTERNATIVA]->(sastojak2);
+MATCH (sastojak1:Sastojak), (sastojak2:Sastojak)
+WHERE sastojak1.nazivSastojka='pavlaka' AND sastojak2.nazivSastojka='kiselo mleko'
+CREATE (sastojak1)-[:ALTERNATIVA]->(sastojak2);
+MATCH (sastojak1:Sastojak), (sastojak2:Sastojak)
+WHERE sastojak1.nazivSastojka='jogurt' AND sastojak2.nazivSastojka='kiselo mleko'
+CREATE (sastojak1)-[:ALTERNATIVA]->(sastojak2);
+MATCH (sastojak1:Sastojak), (sastojak2:Sastojak)
+WHERE sastojak1.nazivSastojka='majonez' AND sastojak2.nazivSastojka='maslinovo ulje'
+CREATE (sastojak1)-[:ALTERNATIVA]->(sastojak2);
+
+CREATE (n:Recept {nazivRecepta:'Palacinke', tezinaPripreme:'lako', vremePripreme:'2 sata', opisRecepta:'Opis i postupak pripreme palacinki...'});
+CREATE (n:Recept {nazivRecepta:'Slani mafini', tezinaPripreme:'srednje', vremePripreme:'1 sat', opisRecepta:'Opis i postupak pripreme slanih mafina...'});
+CREATE (n:Recept {nazivRecepta:'Slatki mafini', tezinaPripreme:'srednje', vremePripreme:'2 sata', opisRecepta:'Opis i postupak pripreme slatkih mafina...'});
+CREATE (n:Recept {nazivRecepta:'Koh', tezinaPripreme:'lako', vremePripreme:'0,5 sat', opisRecepta:'Opis i postupak pripreme koha...'});
+CREATE (n:Recept {nazivRecepta:'Snenokle', tezinaPripreme:'lako', vremePripreme:'0,5 sat', opisRecepta:'Opis i postupak pripreme snenokli...'});
+CREATE (n:Recept {nazivRecepta:'Galete', tezinaPripreme:'srednje', vremePripreme:'1 sat', opisRecepta:'Opis i postupak pripreme galeta...'});
+CREATE (n:Recept {nazivRecepta:'Slane galete', tezinaPripreme:'teško', vremePripreme:'1 sat', opisRecepta:'Opis i postupak pripreme slanih galeta...'});
+CREATE (n:Recept {nazivRecepta:'Proja', tezinaPripreme:'lako', vremePripreme:'1 sat', opisRecepta:'Opis i postupak pripreme proje...'});
+CREATE (n:Recept {nazivRecepta:'Testenina sa 4 vrste sira', tezinaPripreme:'lako', vremePripreme:'2 sata', opisRecepta:'Opis i postupak pripreme testenine sa 4 vrste sira...'});
+CREATE (n:Recept {nazivRecepta:'Zapecene makarone', tezinaPripreme:'lako', vremePripreme:'1 sata', opisRecepta:'Opis i postupak pripreme zapecenih makarona...'});
+CREATE (n:Recept {nazivRecepta:'Testenina karbonara', tezinaPripreme:'teško', vremePripreme:'2 sata', opisRecepta:'Opis i postupak pripreme testenine karbonare...'});
+CREATE (n:Recept {nazivRecepta:'Piletina sa 4 vrste sira', tezinaPripreme:'srednje', vremePripreme:'1 sata', opisRecepta:'Opis i postupak pripreme piletine sa 4 vrste sira...'});
+CREATE (n:Recept {nazivRecepta:'Brzi ajvar', tezinaPripreme:'teško', vremePripreme:'3 sata', opisRecepta:'Opis i postupak pripreme brzog ajvara...'});
+CREATE (n:Recept {nazivRecepta:'Ljutenica', tezinaPripreme:'teško', vremePripreme:'>3 sata', opisRecepta:'Opis i postupak pripreme ljutenice...'});
+CREATE (n:Recept {nazivRecepta:'Dzem', tezinaPripreme:'srednje', vremePripreme:'>3 sata', opisRecepta:'Opis i postupak pripreme dzema...'});
+
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Palacinke' AND sastojak.nazivSastojka='jaja'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Palacinke' AND sastojak.nazivSastojka='mleko'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Palacinke' AND sastojak.nazivSastojka='psenicno brasno'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Palacinke' AND sastojak.nazivSastojka='suncokretovo ulje'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Palacinke' AND sastojak.nazivSastojka='secer'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Palacinke' AND sastojak.nazivSastojka='so'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Slani mafini' AND sastojak.nazivSastojka='jaja'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Slani mafini' AND sastojak.nazivSastojka='mleko'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Slani mafini' AND sastojak.nazivSastojka='psenicno brasno'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Slani mafini' AND sastojak.nazivSastojka='suncokretovo ulje'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Slani mafini' AND sastojak.nazivSastojka='sira'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Slani mafini' AND sastojak.nazivSastojka='so'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Slani mafini' AND sastojak.nazivSastojka='prasak za pecivo'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Slatki mafini' AND sastojak.nazivSastojka='jaja'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Slatki mafini' AND sastojak.nazivSastojka='mleko'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Slatki mafini' AND sastojak.nazivSastojka='psenicno brasno'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Slatki mafini' AND sastojak.nazivSastojka='suncokretovo ulje'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Slatki mafini' AND sastojak.nazivSastojka='secer'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Slatki mafini' AND sastojak.nazivSastojka='kakao'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Slatki mafini' AND sastojak.nazivSastojka='prasak za pecivo'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Koh' AND sastojak.nazivSastojka='jaja'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Koh' AND sastojak.nazivSastojka='mleko'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Koh' AND sastojak.nazivSastojka='psenicno brasno'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Koh' AND sastojak.nazivSastojka='secer'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Koh' AND sastojak.nazivSastojka='griz'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Snenokle' AND sastojak.nazivSastojka='jaja'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Snenokle' AND sastojak.nazivSastojka='mleko'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Snenokle' AND sastojak.nazivSastojka='psenicno brasno'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Snenokle' AND sastojak.nazivSastojka='secer'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Galete' AND sastojak.nazivSastojka='jaja'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Galete' AND sastojak.nazivSastojka='mleko'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Galete' AND sastojak.nazivSastojka='psenicno brasno'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Galete' AND sastojak.nazivSastojka='suncokretovo ulje'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Galete' AND sastojak.nazivSastojka='secer'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Galete' AND sastojak.nazivSastojka='prasak za pecivo'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Slane galete' AND sastojak.nazivSastojka='jaja'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Slane galete' AND sastojak.nazivSastojka='mleko'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Slane galete' AND sastojak.nazivSastojka='psenicno brasno'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Slane galete' AND sastojak.nazivSastojka='suncokretovo ulje'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Slane galete' AND sastojak.nazivSastojka='so'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Slane galete' AND sastojak.nazivSastojka='prasak za pecivo'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Proja' AND sastojak.nazivSastojka='jaja'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Proja' AND sastojak.nazivSastojka='jogurt'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Proja' AND sastojak.nazivSastojka='psenicno brasno'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Proja' AND sastojak.nazivSastojka='kukuruzno brasno'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Proja' AND sastojak.nazivSastojka='suncokretovo ulje'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Proja' AND sastojak.nazivSastojka='sira'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Proja' AND sastojak.nazivSastojka='so'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Proja' AND sastojak.nazivSastojka='prasak za pecivo'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Zapecene makarone' AND sastojak.nazivSastojka='jaja'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Zapecene makarone' AND sastojak.nazivSastojka='mleko'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Zapecene makarone' AND sastojak.nazivSastojka='sira'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Zapecene makarone' AND sastojak.nazivSastojka='suncokretovo ulje'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+MATCH (recept:Recept), (sastojak:Sastojak)
+WHERE recept.nazivRecepta='Zapecene makarone' AND sastojak.nazivSastojka='so'
+CREATE (recept)<-[:SADRZI]-(sastojak);
+
+MATCH (recept:Recept), (ukus:Ukus)
+WHERE recept.nazivRecepta='Palacinke' AND ukus.nazivUkusa='slatko'
+CREATE (recept)<-[:UKUSA]-(ukus);
+MATCH (recept:Recept), (ukus:Ukus)
+WHERE recept.nazivRecepta='Palacinke' AND ukus.nazivUkusa='slano'
+CREATE (recept)<-[:UKUSA]-(ukus);
+MATCH (recept:Recept), (ukus:Ukus)
+WHERE recept.nazivRecepta='Slani mafini' AND ukus.nazivUkusa='slano'
+CREATE (recept)<-[:UKUSA]-(ukus);
+MATCH (recept:Recept), (ukus:Ukus)
+WHERE recept.nazivRecepta='Slani mafini' AND ukus.nazivUkusa='kiselo'
+CREATE (recept)<-[:UKUSA]-(ukus);
+MATCH (recept:Recept), (ukus:Ukus)
+WHERE recept.nazivRecepta='Slatki mafini' AND ukus.nazivUkusa='slatko'
+CREATE (recept)<-[:UKUSA]-(ukus);
+MATCH (recept:Recept), (ukus:Ukus)
+WHERE recept.nazivRecepta='Koh' AND ukus.nazivUkusa='slatko'
+CREATE (recept)<-[:UKUSA]-(ukus);
+MATCH (recept:Recept), (ukus:Ukus)
+WHERE recept.nazivRecepta='Snenokle' AND ukus.nazivUkusa='slatko'
+CREATE (recept)<-[:UKUSA]-(ukus);
+MATCH (recept:Recept), (ukus:Ukus)
+WHERE recept.nazivRecepta='Galete' AND ukus.nazivUkusa='slatko'
+CREATE (recept)<-[:UKUSA]-(ukus);
+MATCH (recept:Recept), (ukus:Ukus)
+WHERE recept.nazivRecepta='Slane galete' AND ukus.nazivUkusa='slano'
+CREATE (recept)<-[:UKUSA]-(ukus);
+MATCH (recept:Recept), (ukus:Ukus)
+WHERE recept.nazivRecepta='Proja' AND ukus.nazivUkusa='slano'
+CREATE (recept)<-[:UKUSA]-(ukus);
+MATCH (recept:Recept), (ukus:Ukus)
+WHERE recept.nazivRecepta='Testenina sa 4 vrste sira' AND ukus.nazivUkusa='slano'
+CREATE (recept)<-[:UKUSA]-(ukus);
+MATCH (recept:Recept), (ukus:Ukus)
+WHERE recept.nazivRecepta='Testenina sa 4 vrste sira' AND ukus.nazivUkusa='kiselo'
+CREATE (recept)<-[:UKUSA]-(ukus);
+MATCH (recept:Recept), (ukus:Ukus)
+WHERE recept.nazivRecepta='Zapecene makarone' AND ukus.nazivUkusa='slano'
+CREATE (recept)<-[:UKUSA]-(ukus);
+MATCH (recept:Recept), (ukus:Ukus)
+WHERE recept.nazivRecepta='Testenina karbonara' AND ukus.nazivUkusa='slano'
+CREATE (recept)<-[:UKUSA]-(ukus);
+MATCH (recept:Recept), (ukus:Ukus)
+WHERE recept.nazivRecepta='Testenina karbonara' AND ukus.nazivUkusa='kiselo'
+CREATE (recept)<-[:UKUSA]-(ukus);
+MATCH (recept:Recept), (ukus:Ukus)
+WHERE recept.nazivRecepta='Piletina sa 4 vrste sira' AND ukus.nazivUkusa='slano'
+CREATE (recept)<-[:UKUSA]-(ukus);
+MATCH (recept:Recept), (ukus:Ukus)
+WHERE recept.nazivRecepta='Piletina sa 4 vrste sira' AND ukus.nazivUkusa='kiselo'
+CREATE (recept)<-[:UKUSA]-(ukus);
+MATCH (recept:Recept), (ukus:Ukus)
+WHERE recept.nazivRecepta='Brzi ajvar' AND ukus.nazivUkusa='slano'
+CREATE (recept)<-[:UKUSA]-(ukus);
+MATCH (recept:Recept), (ukus:Ukus)
+WHERE recept.nazivRecepta='Brzi ajvar' AND ukus.nazivUkusa='ljuto'
+CREATE (recept)<-[:UKUSA]-(ukus);
+MATCH (recept:Recept), (ukus:Ukus)
+WHERE recept.nazivRecepta='Ljutenica' AND ukus.nazivUkusa='slano'
+CREATE (recept)<-[:UKUSA]-(ukus);
+MATCH (recept:Recept), (ukus:Ukus)
+WHERE recept.nazivRecepta='Ljutenica' AND ukus.nazivUkusa='ljuto'
+CREATE (recept)<-[:UKUSA]-(ukus);
+MATCH (recept:Recept), (ukus:Ukus)
+WHERE recept.nazivRecepta='Dzem' AND ukus.nazivUkusa='slatko'
+CREATE (recept)<-[:UKUSA]-(ukus);
+
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Palacinke' AND obrok.nazivObroka='dorucak'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Palacinke' AND obrok.nazivObroka='vecera'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Palacinke' AND obrok.nazivObroka='uzina'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Slani mafini' AND obrok.nazivObroka='dorucak'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Slani mafini' AND obrok.nazivObroka='vecera'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Slatki mafini' AND obrok.nazivObroka='dorucak'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Slatki mafini' AND obrok.nazivObroka='vecera'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Slatki mafini' AND obrok.nazivObroka='uzina'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Koh' AND obrok.nazivObroka='uzina'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Snenokle' AND obrok.nazivObroka='uzina'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Galete' AND obrok.nazivObroka='vecera'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Galete' AND obrok.nazivObroka='uzina'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Slane galete' AND obrok.nazivObroka='dorucak'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Slane galete' AND obrok.nazivObroka='vecera'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Proja' AND obrok.nazivObroka='dorucak'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Proja' AND obrok.nazivObroka='vecera'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Testenina sa 4 vrste sira' AND obrok.nazivObroka='rucak'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Testenina sa 4 vrste sira' AND obrok.nazivObroka='vecera'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Zapecene makarone' AND obrok.nazivObroka='rucak'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Zapecene makarone' AND obrok.nazivObroka='vecera'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Testenina karbonara' AND obrok.nazivObroka='rucak'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Testenina karbonara' AND obrok.nazivObroka='vecera'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Piletina sa 4 vrste sira' AND obrok.nazivObroka='rucak'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Brzi ajvar' AND obrok.nazivObroka='dorucak'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Brzi ajvar' AND obrok.nazivObroka='vecera'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Ljutenica' AND obrok.nazivObroka='rucak'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Ljutenica' AND obrok.nazivObroka='vecera'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Dzem' AND obrok.nazivObroka='vecera'
+CREATE (recept)<-[:SLUZI]-(obrok);
+MATCH (recept:Recept), (obrok:Obrok)
+WHERE recept.nazivRecepta='Dzem' AND obrok.nazivObroka='uzina'
+CREATE (recept)<-[:SLUZI]-(obrok);
+
+MATCH (recept:Recept), (ocena:Ocena)
+WHERE recept.nazivRecepta='Palacinke' AND ocena.ocena='5'
+CREATE (recept)<-[:OCENA]-(ocena);
+MATCH (recept:Recept), (ocena:Ocena)
+WHERE recept.nazivRecepta='Slani mafini' AND ocena.ocena='4'
+CREATE (recept)<-[:OCENA]-(ocena);
+MATCH (recept:Recept), (ocena:Ocena)
+WHERE recept.nazivRecepta='Slatki mafini' AND ocena.ocena='3'
+CREATE (recept)<-[:OCENA]-(ocena);
+MATCH (recept:Recept), (ocena:Ocena)
+WHERE recept.nazivRecepta='Koh' AND ocena.ocena='4'
+CREATE (recept)<-[:OCENA]-(ocena);
+MATCH (recept:Recept), (ocena:Ocena)
+WHERE recept.nazivRecepta='Snenokle' AND ocena.ocena='5'
+CREATE (recept)<-[:OCENA]-(ocena);
+MATCH (recept:Recept), (ocena:Ocena)
+WHERE recept.nazivRecepta='Galete' AND ocena.ocena='3'
+CREATE (recept)<-[:OCENA]-(ocena);
+MATCH (recept:Recept), (ocena:Ocena)
+WHERE recept.nazivRecepta='Slane galete' AND ocena.ocena='2'
+CREATE (recept)<-[:OCENA]-(ocena);
+MATCH (recept:Recept), (ocena:Ocena)
+WHERE recept.nazivRecepta='Proja' AND ocena.ocena='4'
+CREATE (recept)<-[:OCENA]-(ocena);
+MATCH (recept:Recept), (ocena:Ocena)
+WHERE recept.nazivRecepta='Testenina sa 4 vrste sira' AND ocena.ocena='5'
+CREATE (recept)<-[:OCENA]-(ocena);
+MATCH (recept:Recept), (ocena:Ocena)
+WHERE recept.nazivRecepta='Zapecene makarone' AND ocena.ocena='3'
+CREATE (recept)<-[:OCENA]-(ocena);
+MATCH (recept:Recept), (ocena:Ocena)
+WHERE recept.nazivRecepta='Testenina karbonara' AND ocena.ocena='2'
+CREATE (recept)<-[:OCENA]-(ocena);
+MATCH (recept:Recept), (ocena:Ocena)
+WHERE recept.nazivRecepta='Piletina sa 4 vrste sira' AND ocena.ocena='5'
+CREATE (recept)<-[:OCENA]-(ocena);
+MATCH (recept:Recept), (ocena:Ocena)
+WHERE recept.nazivRecepta='Brzi ajvar' AND ocena.ocena='4'
+CREATE (recept)<-[:OCENA]-(ocena);
+MATCH (recept:Recept), (ocena:Ocena)
+WHERE recept.nazivRecepta='Ljutenica' AND ocena.ocena='3'
+CREATE (recept)<-[:OCENA]-(ocena);
+MATCH (recept:Recept), (ocena:Ocena)
+WHERE recept.nazivRecepta='Dzem' AND ocena.ocena='5'
+CREATE (recept)<-[:OCENA]-(ocena);

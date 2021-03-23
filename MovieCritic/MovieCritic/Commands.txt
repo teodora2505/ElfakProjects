@@ -1,0 +1,2665 @@
+﻿CREATE TABLE "Korisnik" (
+    "username" text,
+    "password" text,
+    ime text,
+    prezime text,
+    mail text,
+    admin text,
+    PRIMARY KEY (("username","password"))
+    );
+
+INSERT INTO "Korisnik" ("username","password",ime,prezime,mail,admin)
+VALUES ('nemanja','milosevic98','Nemanja','Milosevic','droetker70@gmail.com','da');
+INSERT INTO "Korisnik" ("username","password",ime,prezime,mail,admin)
+VALUES ('teodora','novkovic97','Teodora','Novkovic','teodoranovkovic@hotmail.com','da');
+INSERT INTO "Korisnik" ("username","password",ime,prezime,mail,admin)
+VALUES ('milan','janjic98','Milan','Janjic','milanjanjic@gmail.com','da');
+INSERT INTO "Korisnik" ("username","password",ime,prezime,mail,admin)
+VALUES ('jelena','milosevic96','Jelena','Milosevic','jelena.milosevic95@gmail.com','ne');
+INSERT INTO "Korisnik" ("username","password",ime,prezime,mail,admin)
+VALUES ('vladimir','janjic96','Vladimir','Janjic','vladimirjanjic@gmail.com','ne');
+INSERT INTO "Korisnik" ("username","password",ime,prezime,mail,admin)
+VALUES ('tanja','novkovic77','Tanja','Nokvovic','tanjanovkovic@gmail.com','ne');
+INSERT INTO "Korisnik" ("username","password",ime,prezime,mail,admin)
+VALUES ('jelena','novkovic80','Jelena','Nokvovic','jelenanovkovic@gmail.com','ne');
+INSERT INTO "Korisnik" ("username","password",ime,prezime,mail,admin)
+VALUES ('marija','stankovic97','Marija','Stankovic','marijastankovic@gmail.com','ne');
+
+CREATE TABLE "ReziserGlumci" (
+    "sifra" text,
+    reziser text,
+    glumci text,
+    PRIMARY KEY ("sifra")
+    );
+
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1000','Martin Scorsese','Robert De Niro, Al Pacino');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1001','Peter Farrelly','Viggo Mortensen, Mahershala Ali');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1002','James Mangold','Hugh Jackman, Patrick Stewart');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1003','Martin Scorsese','Leonardo DiCaprio, Jonah Hill');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1004','Peter Jackson','Elijah Wood, Ian McKellen, Sean Astin');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1005','Christopher Nolan','Guz Pearce, Joe Pantoliano');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1006','Frank Darabont','Tim Robbins, Morgan Freeman');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1007','Steven Spielberg','Liam Neeson, Ralph Fiennes');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1008','Fransis Ford Coppola','Marlon Brando, Al Pacino');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1009','Martin Scorsese','Robert De Niro, Jodie Foster');
+
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1010','Gary Dauberman','Vera Farmiga, Patrick Wilson');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1011','Leigh Whannell','Logan Marshall-Green, Melanie Vallejo');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1012','Jordan Peele','Daniel Kaluuya, Allison Williams');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1013','M. Night Shyamalan','James McAvoy, Anya Taylor-Joy');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1014','Jeremy Saulnier','Anton Yelchin, Imogen Poots');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1015','Jemaine Clement','Jemaine Clement, Taika Waititi');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1016','James Wan','Patrick Wilson, Vera Farmiga');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1017','Scott Derrickson','Ethan Hawke, Juliet Rylance');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1018','Jeff Nichols','Michael Shannon, Jessica Chastain');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1019','Alfred Hitchcock','Anthony Perkins, Janet Leigh');
+
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1020','George Lucas','Mark Hamill, Carrie Fisher, Daisy Ridley');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1021','Anthony Russo','Robert Downey Jr, Chris Hemsworth');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1022','Bob Persichetti','Shameik Moore, Jake Johnson');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1023','David Yates','Daniel Radcliffe, Emma Watson, Rupert Grint');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1024','Tim Miller','Ryan Reynolds, Morena Baccarin');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1025','George Miller','Tom Hardy, Charlize Theron');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1026','Christopher Nolan','Leonardo DiCaprio, Ellen Page, Tom Hardy');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1027','Christopher Nolan','Christian Bale, Hugh Jackman');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1028','Lana Wachowski','Keanu Reeves, Laurence Fishburne');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1029','George Lucas','Mark Hamill, Harrison Ford');
+
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1030','Todd Phillips','Joaquin Phoenix, Robert De Niro');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1031','Rian Johnson','Daniel Craig, Chris Evans');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1032','Chad Stahelski','Keanu Reeves, Halle Berry');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1033','Sriram Raghavan','Ayushmann Khurrana, Tabu');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1034','Taylor Sheridan','Kelsey Asbille, Jeremy Renner');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1035','Oriol Paulo','Mario Casas, Ana Wagener');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1036','Meghna Gulzar','Irrfan Khan, Neeraj Kabi');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1037','Dan Gilroy','Jake Gyllenhaal, Rene Russo');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1038','Quentin Tarantino','John Travolta, Uma Thurman, Bruce Willis');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1039','Arthur Penn','Warren Beatty, Faye Dunaway');
+
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1040','Prashanth Neel','Yash, Srinidhi Shetty');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1041','Joachim Ronning','Johnny Depp, Orlando Bloom');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1042','Nitesh Tiwari','Aamir Khan, Sakshi Tanwar');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1043','Alejandro G. Inarritu','Leonardo DiCaprio, Tom Hardy');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1044','Sukumar','Mahesh Babu, Kriti Sanon');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1045','Denis Villeneuve','Hugh Jackman, Jake Gyllenhaal');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1046','Kamal Haasan','Pooja Kumar, Miles Anderson');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1047','Paul Greengrass','Matt Damon, Edgar Ramirez');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1048','Christopher Nolan','Christian Bale, Heath Ledger');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1049','Ron Howard','Tom Hanks, Audrey Tautou');
+
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1050','Fede Alvarez','Stephen Lang, Jane Levy');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1051','Lenny Abrahamson','Brie Larson, Jacob Tremblay');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1052','Spike Lee','Josh Brolin, Elizabeth Olsen');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1053','Martin Scorsese','Leonardo DiCaprio, Matt Damon');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1054','Florian Henckel','Martina Gedeck, Sebastian Koch');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1055','Richard Kelly','Jake Gyllenhaal, Jena Malone');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1056','David Fincher','Brad Pitt, Edward Norton');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1057','David Fincher','Brad Pitt, Morgan Freeman');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1058','Bryan Singer','Kevin Spacey, Gabriel Byrne');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1059','Jonathan Demme','Jodie Foster, Anthony Hopkins');
+
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1060','Noah Baumbach','Adam Driver, Scarlett Johansson');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1061','Nicholas Stoller','Seth Rogen, Zac Efron');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1062','Rawson Thurber','Jason Sudeikis, Jennifer Aniston');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1063','Seth MacFarlane','Mark Wahlberg, Mila Kunis');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1064','Seth Gordon','Jason Bateman, Charlie Day');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1065','Olivier Nakache','Francois Cluzet, Omar Sy');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1066','Rajkumar Hirani','Aamir Khan, Madhavan');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1067','Todd Phillips','Zach Galifianakis, Bradley Cooper');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1068','Phil Lord','Channing Tatum, Jonah Hill');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1069','Rajkumar Hirani','Aamir Khan, Madhavan');
+
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1070','Greta Gerwig','Saoirse Ronan, Emma Watson');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1071','Terrence Malick',' August Diehl, Valerie Pachner');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1072','Trey E. Shults','Taylor Russell, Kelvin Harrison');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1073','Rupert Goold','Renee Zellweger, Jessie Buckley');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1074','Ari Sandel','Adam Devine, Alexandra Daddario');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1075','Oriol Paulo','Adriana Ugarte, Chino Darin');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1076','Fernando G. Molina','Mario Casas, Adriana Ugarte');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1077','Fernando G. Molina','Mario Casas, Maria Valverde');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1078','Roberto Benigni','Roberto Benigni, Nicoletta Braschi');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1079','Robert Zemeckis','Tom Hanks, Robin Wright');
+
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1080','Martin Scorcsese','Robert De Niro, Ray Liotta');
+INSERT INTO "ReziserGlumci" ("sifra",reziser,glumci)
+VALUES ('1081','Milos Forman','Jack Nicholson, Louise Fletcher, Will Sampson');
+
+CREATE TABLE "Film" (
+    "zanr" text,
+    "sifra" text,
+    naziv text,
+    godina text,
+    PRIMARY KEY ("zanr",godina,naziv))
+    WITH CLUSTERING ORDER BY (godina DESC);
+
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('drama','1000','The Irishman','2019');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('drama','1001','Green Book','2018');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('drama','1002','Logan','2017');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('drama','1003','The Wolf of Wall Street','2013');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('drama','1004','LOTR: The return of the king','2003');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('drama','1005','Memento','2000');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('drama','1006','The Shawshank Redemption','1994');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('drama','1007','Shindler''s List','1993');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('drama','1008','Taxi Driver',1976);
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('drama','1009','The Godfather','1972');
+
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('horor','1010','Annabelle Comes Home','2019');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('horor','1011','Upgrade','2018');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('horor','1012','Get Out','2017');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('horor','1013','Split','2016');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('horor','1014','Green Room','2015');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('horor','1015','What We Do in the Shadows','2014');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('horor','1016','The Conjuring','2013');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('horor','1017','Sinister','2012');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('horor','1018','Take Shelter','2011');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('horor','1019','Psycho','1960');
+
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('fantastika','1020','The Rise of Skywalker','2019');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('fantastika','1021','Avengers:Infinity War','2018');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('fantastika','1022','Spider-Man:Into the Spider-Verse','2018');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('fantastika','1023','Deadpool','2016');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('fantastika','1024','Mad Max:Fury Road','2015');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('fantastika','1025','Harry Potter and Deathly Hallows','2011');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('fantastika','1026','Inception','2010');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('fantastika','1027','The Prestige','2006');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('fantastika','1028','The Matrix','1999');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('fantastika','1029','Star Wars','1977');
+
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('krimi','1030','Joker','2019');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('krimi','1031','Knives Out','2019');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('krimi','1032','John Wick:Chapter 3','2019');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('krimi','1033','Andhadhun','2018');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('krimi','1034','Wind River','2017');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('krimi','1035','Contratiempo','2016');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('krimi','1036','Talvar','2015');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('krimi','1037','Nightcrawler','2014');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('krimi','1038','Pulp Fiction','1994');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('krimi','1039','Bonnie and Clyde','1967');
+
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('akcioni','1040','K.G.F:Chapter 1','2018');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('akcioni','1041','Pirates of the Caribbean V','2017');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('akcioni','1042','Dangal','2016');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('akcioni','1043','The Revenant','2015');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('akcioni','1044','1-Nenokkadine','2014');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('akcioni','1045','Prisoners','2013');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('akcioni','1046','Vishwaroopam','2013');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('akcioni','1047','The Bourne Ultimatum','2007');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('akcioni','1048','The Dark Knight','2006');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('akcioni','1049','The Da Vinci Code','2006');
+
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('triler','1050','Don''t breathe','2016');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('triler','1051','Room','2015');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('triler','1052','Oldboy','2013');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('triler','1053','The Departed','2006');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('triler','1054','Das Leben der Anderen','2006');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('triler','1055','Doni Darko','2001');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('triler','1056','Fight Club','1999');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('triler','1057','Seven','1995');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('triler','1058','The Usual Suspects','1995');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('triler','1059','The Silence of the Lambs','1991');
+
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('komedija','1060','Marriage Story','2019');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('komedija','1061','Neighbors','2014');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('komedija','1062','22 Jump Street','2014');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('komedija','1063','We''re the Millers','2013');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('komedija','1064','Ted','2012');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('komedija','1065','Horrible Bosses','2011');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('komedija','1066','Intouchables','2011');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('komedija','1067','3 Idiots','2009');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('komedija','1068','The Hangover','2009');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('komedija','1069','Superbad','2007');
+
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('romantika','1070','Little Women','2019');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('romantika','1071','A Hidden Life','2019');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('romantika','1072','Waves','2019');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('romantika','1073','Judy','2019');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('romantika','1074','When We First Met','2018');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('romantika','1075','Durante la tormenta','2018');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('romantika','1076','Palmeras en la nieve','2015');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('romantika','1077','Tres metros sobre el cielo','2010');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('romantika','1078','La vita e bella','1997');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('romantika','1079','Forrest Gump','1994');
+
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('krimi','1080','Goodfellas','1990');
+INSERT INTO "Film" ("zanr","sifra",naziv,godina)
+VALUES ('drama','1081','One flew over the cuckoo''s nest','1975');
+
+CREATE TABLE "Ocene" (
+    "sifraFilma" text,
+    "username" text,
+    "password" text,
+    ocena int,
+    PRIMARY KEY ("sifraFilma","username","password")
+);
+   
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1000','tanja','novkovic77',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1000','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1000','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1001','tanja','novkovic77',6);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1001','vladimir','janjic96',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1001','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1002','tanja','novkovic77',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1002','vladimir','janjic96',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1002','nemanja','milosevic98',8);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1003','tanja','novkovic77',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1003','vladimir','janjic96',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1003','nemanja','milosevic98',10);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1004','tanja','novkovic77',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1004','vladimir','janjic96',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1004','nemanja','milosevic98',9);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1005','tanja','novkovic77',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1005','vladimir','janjic96',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1005','nemanja','milosevic98',10);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1006','tanja','novkovic77',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1006','vladimir','janjic96',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1006','nemanja','milosevic98',10);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1007','tanja','novkovic77',6);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1007','vladimir','janjic96',5);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1007','nemanja','milosevic98',6);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1008','tanja','novkovic77',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1008','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1008','nemanja','milosevic98',9);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1009','tanja','novkovic77',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1009','vladimir','janjic96',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1009','nemanja','milosevic98',10);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1010','tanja','novkovic77',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1010','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1010','nemanja','milosevic98',10);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1011','tanja','novkovic77',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1011','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1011','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1012','tanja','novkovic77',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1012','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1012','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1013','tanja','novkovic77',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1013','vladimir','janjic96',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1013','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1014','tanja','novkovic77',6);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1014','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1014','nemanja','milosevic98',6);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1015','tanja','novkovic77',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1015','vladimir','janjic96',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1015','nemanja','milosevic98',8);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1016','tanja','novkovic77',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1016','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1016','nemanja','milosevic98',9);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1017','tanja','novkovic77',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1017','vladimir','janjic96',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1017','nemanja','milosevic98',10);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1018','tanja','novkovic77',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1018','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1018','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1019','tanja','novkovic77',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1019','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1019','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1020','tanja','novkovic77',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1020','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1020','nemanja','milosevic98',9);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1021','tanja','novkovic77',6);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1021','vladimir','janjic96',6);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1021','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1022','tanja','novkovic77',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1022','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1022','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1023','tanja','novkovic77',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1023','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1023','nemanja','milosevic98',9);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1024','tanja','novkovic77',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1024','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1024','nemanja','milosevic98',9);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1025','tanja','novkovic77',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1025','vladimir','janjic96',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1025','nemanja','milosevic98',10);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1026','tanja','novkovic77',5);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1026','vladimir','janjic96',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1026','nemanja','milosevic98',6);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1027','tanja','novkovic77',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1027','vladimir','janjic96',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1027','nemanja','milosevic98',10);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1028','tanja','novkovic77',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1028','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1028','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1029','tanja','novkovic77',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1029','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1029','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1030','tanja','novkovic77',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1030','vladimir','janjic96',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1030','nemanja','milosevic98',10);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1031','tanja','novkovic77',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1031','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1031','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1032','tanja','novkovic77',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1032','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1032','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1033','tanja','novkovic77',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1033','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1033','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1034','tanja','novkovic77',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1034','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1034','nemanja','milosevic98',8);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1035','tanja','novkovic77',6);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1035','vladimir','janjic96',6);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1035','nemanja','milosevic98',6);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1036','tanja','novkovic77',5);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1036','vladimir','janjic96',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1036','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1037','tanja','novkovic77',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1037','vladimir','janjic96',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1037','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1038','tanja','novkovic77',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1038','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1038','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1039','tanja','novkovic77',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1039','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1039','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1040','tanja','novkovic77',6);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1040','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1040','nemanja','milosevic98',6);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1041','tanja','novkovic77',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1041','vladimir','janjic96',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1041','nemanja','milosevic98',10);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1042','tanja','novkovic77',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1042','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1042','nemanja','milosevic98',10);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1043','tanja','novkovic77',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1043','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1043','nemanja','milosevic98',10);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1044','tanja','novkovic77',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1044','vladimir','janjic96',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1044','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1045','tanja','novkovic77',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1045','vladimir','janjic96',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1045','nemanja','milosevic98',10);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1046','tanja','novkovic77',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1046','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1046','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1047','tanja','novkovic77',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1047','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1047','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1048','tanja','novkovic77',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1048','vladimir','janjic96',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1048','nemanja','milosevic98',9);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1049','tanja','novkovic77',6);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1049','vladimir','janjic96',5);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1049','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1050','tanja','novkovic77',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1050','vladimir','janjic96',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1050','nemanja','milosevic98',10);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1051','tanja','novkovic77',3);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1051','vladimir','janjic96',4);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1051','nemanja','milosevic98',5);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1052','tanja','novkovic77',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1052','vladimir','janjic96',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1052','nemanja','milosevic98',10);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1053','tanja','novkovic77',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1053','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1053','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1054','tanja','novkovic77',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1054','vladimir','janjic96',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1054','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1055','tanja','novkovic77',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1055','vladimir','janjic96',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1055','nemanja','milosevic98',10);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1056','tanja','novkovic77',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1056','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1056','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1057','tanja','novkovic77',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1057','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1057','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1058','tanja','novkovic77',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1058','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1058','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1059','tanja','novkovic77',6);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1059','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1059','nemanja','milosevic98',8);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1060','tanja','novkovic77',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1060','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1060','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1061','tanja','novkovic77',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1061','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1061','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1062','tanja','novkovic77',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1062','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1062','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1063','tanja','novkovic77',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1063','vladimir','janjic96',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1063','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1064','tanja','novkovic77',6);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1064','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1064','nemanja','milosevic98',5);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1065','tanja','novkovic77',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1065','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1065','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1066','tanja','novkovic77',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1066','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1066','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1067','tanja','novkovic77',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1067','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1067','nemanja','milosevic98',10);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1068','tanja','novkovic77',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1068','vladimir','janjic96',10);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1068','nemanja','milosevic98',9);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1069','tanja','novkovic77',6);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1069','vladimir','janjic96',6);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1069','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1070','tanja','novkovic77',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1070','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1070','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1071','tanja','novkovic77',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1071','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1071','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1072','tanja','novkovic77',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1072','vladimir','janjic96',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1072','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1073','tanja','novkovic77',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1073','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1073','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1074','tanja','novkovic77',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1074','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1074','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1075','tanja','novkovic77',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1075','vladimir','janjic96',6);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1075','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1076','tanja','novkovic77',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1076','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1076','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1077','tanja','novkovic77',9);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1077','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1077','nemanja','milosevic98',10);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1078','tanja','novkovic77',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1078','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1078','nemanja','milosevic98',8);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1079','tanja','novkovic77',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1079','vladimir','janjic96',7);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1079','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1080','tanja','novkovic77',5);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1080','vladimir','janjic96',5);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1080','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1081','tanja','novkovic77',6);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1081','vladimir','janjic96',6);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1081','nemanja','milosevic98',7);
+
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1082','tanja','novkovic77',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1082','vladimir','janjic96',8);
+INSERT INTO "Ocene" ("sifraFilma","username","password",ocena)
+VALUES ('1082','nemanja','milosevic98',7);
+
+CREATE TABLE "Preporuke" (
+    "sifraFilma" text,
+    "username" text,
+    "password" text,
+     preporuka text,
+    PRIMARY KEY ("sifraFilma","username","password")
+);
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1000','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1000','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1000','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1000','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1001','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1001','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1001','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1001','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1002','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1002','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1002','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1002','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1003','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1003','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1003','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1003','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1004','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1004','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1004','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1004','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1005','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1005','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1005','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1005','jelena','milosevic96','da');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1006','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1006','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1006','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1006','jelena','milosevic96','da');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1007','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1007','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1007','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1007','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1008','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1008','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1008','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1008','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1009','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1009','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1009','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1009','jelena','milosevic96','da');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1010','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1010','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1010','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1010','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1011','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1011','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1011','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1011','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1012','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1012','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1012','nemanja','milosevic98','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1012','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1013','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1013','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1013','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1013','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1014','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1014','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1014','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1014','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1015','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1015','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1015','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1015','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1016','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1016','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1016','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1016','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1017','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1017','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1017','nemanja','milosevic98','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1017','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1018','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1018','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1018','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1018','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1019','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1019','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1019','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1019','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1020','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1020','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1020','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1020','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1021','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1021','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1021','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1021','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1022','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1022','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1022','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1022','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1023','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1023','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1023','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1023','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1024','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1024','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1024','nemanja','milosevic98','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1024','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1025','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1025','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1025','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1025','jelena','milosevic96','da');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1026','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1026','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1026','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1026','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1027','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1027','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1027','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1027','jelena','milosevic96','da');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1028','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1028','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1028','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1028','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1029','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1029','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1029','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1029','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1030','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1030','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1030','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1030','jelena','milosevic96','da');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1031','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1031','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1031','nemanja','milosevic98','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1031','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1032','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1032','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1032','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1032','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1033','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1033','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1033','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1033','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1034','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1034','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1034','nemanja','milosevic98','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1034','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1035','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1035','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1035','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1035','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1036','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1036','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1036','nemanja','milosevic98','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1036','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1037','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1037','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1037','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1037','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1038','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1038','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1038','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1038','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1039','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1039','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1039','nemanja','milosevic98','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1039','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1040','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1040','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1040','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1040','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1041','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1041','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1041','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1041','jelena','milosevic96','da');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1042','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1042','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1042','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1042','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1043','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1043','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1043','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1043','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1044','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1044','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1044','nemanja','milosevic98','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1044','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1045','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1045','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1045','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1045','jelena','milosevic96','da');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1046','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1046','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1046','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1046','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1047','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1047','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1047','nemanja','milosevic98','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1047','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1048','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1048','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1048','nemanja','milosevic98','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1048','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1049','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1049','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1049','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1049','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1050','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1050','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1050','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1050','jelena','milosevic96','da');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1051','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1051','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1051','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1051','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1052','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1052','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1052','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1052','jelena','milosevic96','da');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1053','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1053','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1053','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1053','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1054','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1054','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1054','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1054','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1055','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1055','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1055','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1055','jelena','milosevic96','da');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1056','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1056','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1056','nemanja','milosevic98','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1056','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1057','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1057','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1057','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1057','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1058','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1058','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1058','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1058','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1059','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1059','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1059','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1059','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1060','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1060','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1060','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1060','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1061','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1061','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1061','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1061','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1062','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1062','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1062','nemanja','milosevic98','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1062','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1063','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1063','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1063','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1063','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1064','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1064','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1064','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1064','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1065','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1065','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1065','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1065','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1066','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1066','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1066','nemanja','milosevic98','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1066','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1067','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1067','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1067','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1067','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1068','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1068','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1068','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1068','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1069','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1069','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1069','nemanja','milosevic98','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1069','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1070','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1070','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1070','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1070','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1071','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1071','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1071','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1071','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1072','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1072','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1072','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1072','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1073','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1073','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1073','nemanja','milosevic98','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1073','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1074','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1074','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1074','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1074','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1075','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1075','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1075','nemanja','milosevic98','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1075','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1076','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1076','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1076','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1076','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1077','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1077','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1077','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1077','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1078','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1078','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1078','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1078','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1079','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1079','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1079','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1079','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1080','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1080','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1080','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1080','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1081','tanja','novkovic77','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1081','vladimir','janjic96','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1081','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1081','jelena','milosevic96','ne');
+
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1082','tanja','novkovic77','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1082','vladimir','janjic96','ne');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1082','nemanja','milosevic98','da');
+INSERT INTO "Preporuke" ("sifraFilma","username","password",preporuka)
+VALUES ('1082','jelena','milosevic96','ne');
+
+CREATE TABLE "OmiljeniFilmovi" (
+    "username" text,
+    "password" text,
+    naziv text,
+    godina text,
+    zanr text,
+    "sifraFilma" text,
+    PRIMARY KEY (("username","password"),naziv,godina,zanr))
+    WITH CLUSTERING ORDER BY (naziv ASC);
+
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','The Shawshank Redemption','1994','drama','1006');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','Doni Darko','2001','triler','1055');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','Oldboy','2013','triler','1052');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','Don''t breathe','2016','triler','1050');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','Prisoners','2013','akcioni','1045');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','The Irishman','2019','drama','1000');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','Annabelle Comes Home','2019','horor','1010');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','The Rise of Skywalker','2019','fantastika','1020');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','John Wick:Chapter 3','2019','krimi','1032');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','Pirates of the Caribbean V','2017','akcioni','1041');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','Marriage Story','2019','komedija','1060');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','Judy','2019','romantika','1073');
+
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','The Shawshank Redemption','1994','drama','1006');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','Doni Darko','2001','triler','1055');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','Oldboy','2013','triler','1052');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','Don''t breathe','2016','triler','1050');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','Prisoners','2013','akcioni','1045');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','The Irishman','2019','drama','1000');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','Annabelle Comes Home','2019','horor','1010');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','The Rise of Skywalker','2019','fantastika','1020');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','John Wick:Chapter 3','2019','krimi','1032');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','Pirates of the Caribbean V','2017','akcioni','1041');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','Marriage Story','2019','komedija','1060');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','Judy','2019','romantika','1073');
+
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','The Shawshank Redemption','1994','drama','1006');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','Doni Darko','2001','triler','1055');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','Oldboy','2013','triler','1052');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','Don''t breathe','2016','triler','1050');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','Prisoners','2013','akcioni','1045');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','The Irishman','2019','drama','1000');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','Annabelle Comes Home','2019','horor','1010');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','The Rise of Skywalker','2019','fantastika','1020');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','John Wick:Chapter 3','2019','krimi','1032');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','Pirates of the Caribbean V','2017','akcioni','1041');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','Marriage Story','2019','komedija','1060');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','Judy','2019','romantika','1073');
+
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','The Shawshank Redemption','1994','drama','1006');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','Doni Darko','2001','triler','1055');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','Oldboy','2013','triler','1052');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','Don''t breathe','2016','triler','1050');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','Prisoners','2013','akcioni','1045');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','The Irishman','2019','drama','1000');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','Annabelle Comes Home','2019','horor','1010');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','The Rise of Skywalker','2019','fantastika','1020');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','John Wick:Chapter 3','2019','krimi','1032');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','Pirates of the Caribbean V','2017','akcioni','1041');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','Marriage Story','2019','komedija','1060');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','Judy','2019','romantika','1073');
+
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','The Shawshank Redemption','1994','drama','1006');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','Doni Darko','2001','triler','1055');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','Oldboy','2013','triler','1052');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','Don''t breathe','2016','triler','1050');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','Prisoners','2013','akcioni','1045');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','The Irishman','2019','drama','1000');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','Annabelle Comes Home','2019','horor','1010');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','The Rise of Skywalker','2019','fantastika','1020');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','John Wick:Chapter 3','2019','krimi','1032');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','Pirates of the Caribbean V','2017','akcioni','1041');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','Marriage Story','2019','komedija','1060');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','Judy','2019','romantika','1073');
+
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','The Shawshank Redemption','1994','drama','1006');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','Doni Darko','2001','triler','1055');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','Oldboy','2013','triler','1052');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','Don''t breathe','2016','triler','1050');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','Prisoners','2013','akcioni','1045');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','The Irishman','2019','drama','1000');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','Annabelle Comes Home','2019','horor','1010');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','The Rise of Skywalker','2019','fantastika','1020');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','John Wick:Chapter 3','2019','krimi','1032');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','Pirates of the Caribbean V','2017','akcioni','1041');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','Marriage Story','2019','komedija','1060');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','Judy','2019','romantika','1073');
+
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','The Shawshank Redemption','1994','drama','1006');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','Doni Darko','2001','triler','1055');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','Oldboy','2013','triler','1052');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','Don''t breathe','2016','triler','1050');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','Prisoners','2013','akcioni','1045');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','The Irishman','2019','drama','1000');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','Annabelle Comes Home','2019','horor','1010');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','The Rise of Skywalker','2019','fantastika','1020');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','John Wick:Chapter 3','2019','krimi','1032');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','Pirates of the Caribbean V','2017','akcioni','1041');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','Marriage Story','2019','komedija','1060');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','Judy','2019','romantika','1073');
+
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','The Shawshank Redemption','1994','drama','1006');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','Doni Darko','2001','triler','1055');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','Oldboy','2013','triler','1052');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','Don''t breathe','2016','triler','1050');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','Prisoners','2013','akcioni','1045');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','The Irishman','2019','drama','1000');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','Annabelle Comes Home','2019','horor','1010');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','The Rise of Skywalker','2019','fantastika','1020');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','John Wick:Chapter 3','2019','krimi','1032');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','Pirates of the Caribbean V','2017','akcioni','1041');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','Marriage Story','2019','komedija','1060');
+INSERT INTO "OmiljeniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','Judy','2019','romantika','1073');
+
+CREATE TABLE "OdgledaniFilmovi" (
+    "username" text,
+    "password" text,
+    naziv text,
+    godina text,
+    zanr text,
+    "sifraFilma" text,
+    PRIMARY KEY (("username","password"),naziv,godina,zanr))
+    WITH CLUSTERING ORDER BY (naziv ASC);
+
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','The Shawshank Redemption','1994','drama','1006');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','Doni Darko','2001','triler','1055');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','Oldboy','2013','triler','1052');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','Don''t breathe','2016','triler','1050');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','Prisoners','2013','akcioni','1045');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','The Irishman','2019','drama','1000');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','Annabelle Comes Home','2019','horor','1010');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','The Rise of Skywalker','2019','fantastika','1020');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','John Wick:Chapter 3','2019','krimi','1032');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','Pirates of the Caribbean V','2017','akcioni','1041');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','Marriage Story','2019','komedija','1060');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('nemanja','milosevic98','Judy','2019','romantika','1073');
+
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','The Shawshank Redemption','1994','drama','1006');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','Doni Darko','2001','triler','1055');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','Oldboy','2013','triler','1052');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','Don''t breathe','2016','triler','1050');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','Prisoners','2013','akcioni','1045');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','The Irishman','2019','drama','1000');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','Annabelle Comes Home','2019','horor','1010');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','The Rise of Skywalker','2019','fantastika','1020');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','John Wick:Chapter 3','2019','krimi','1032');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','Pirates of the Caribbean V','2017','akcioni','1041');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','Marriage Story','2019','komedija','1060');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('teodora','novkovic97','Judy','2019','romantika','1073');
+
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','The Shawshank Redemption','1994','drama','1006');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','Doni Darko','2001','triler','1055');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','Oldboy','2013','triler','1052');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','Don''t breathe','2016','triler','1050');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','Prisoners','2013','akcioni','1045');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','The Irishman','2019','drama','1000');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','Annabelle Comes Home','2019','horor','1010');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','The Rise of Skywalker','2019','fantastika','1020');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','John Wick:Chapter 3','2019','krimi','1032');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','Pirates of the Caribbean V','2017','akcioni','1041');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','Marriage Story','2019','komedija','1060');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('milan','janjic98','Judy','2019','romantika','1073');
+
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','The Shawshank Redemption','1994','drama','1006');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','Doni Darko','2001','triler','1055');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','Oldboy','2013','triler','1052');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','Don''t breathe','2016','triler','1050');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','Prisoners','2013','akcioni','1045');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','The Irishman','2019','drama','1000');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','Annabelle Comes Home','2019','horor','1010');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','The Rise of Skywalker','2019','fantastika','1020');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','John Wick:Chapter 3','2019','krimi','1032');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','Pirates of the Caribbean V','2017','akcioni','1041');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','Marriage Story','2019','komedija','1060');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','milosevic96','Judy','2019','romantika','1073');
+
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','The Shawshank Redemption','1994','drama','1006');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','Doni Darko','2001','triler','1055');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','Oldboy','2013','triler','1052');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','Don''t breathe','2016','triler','1050');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','Prisoners','2013','akcioni','1045');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','The Irishman','2019','drama','1000');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','Annabelle Comes Home','2019','horor','1010');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','The Rise of Skywalker','2019','fantastika','1020');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','John Wick:Chapter 3','2019','krimi','1032');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','Pirates of the Caribbean V','2017','akcioni','1041');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','Marriage Story','2019','komedija','1060');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('vladimir','janjic96','Judy','2019','romantika','1073');
+
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','The Shawshank Redemption','1994','drama','1006');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','Doni Darko','2001','triler','1055');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','Oldboy','2013','triler','1052');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','Don''t breathe','2016','triler','1050');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','Prisoners','2013','akcioni','1045');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','The Irishman','2019','drama','1000');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','Annabelle Comes Home','2019','horor','1010');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','The Rise of Skywalker','2019','fantastika','1020');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','John Wick:Chapter 3','2019','krimi','1032');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','Pirates of the Caribbean V','2017','akcioni','1041');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','Marriage Story','2019','komedija','1060');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('tanja','novkovic77','Judy','2019','romantika','1073');
+
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','The Shawshank Redemption','1994','drama','1006');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','Doni Darko','2001','triler','1055');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','Oldboy','2013','triler','1052');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','Don''t breathe','2016','triler','1050');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','Prisoners','2013','akcioni','1045');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','The Irishman','2019','drama','1000');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','Annabelle Comes Home','2019','horor','1010');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','The Rise of Skywalker','2019','fantastika','1020');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','John Wick:Chapter 3','2019','krimi','1032');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','Pirates of the Caribbean V','2017','akcioni','1041');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','Marriage Story','2019','komedija','1060');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('jelena','novkovic80','Judy','2019','romantika','1073');
+
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','The Shawshank Redemption','1994','drama','1006');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','Doni Darko','2001','triler','1055');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','Oldboy','2013','triler','1052');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','Don''t breathe','2016','triler','1050');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','Prisoners','2013','akcioni','1045');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','The Irishman','2019','drama','1000');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','Annabelle Comes Home','2019','horor','1010');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','The Rise of Skywalker','2019','fantastika','1020');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','John Wick:Chapter 3','2019','krimi','1032');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','Pirates of the Caribbean V','2017','akcioni','1041');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','Marriage Story','2019','komedija','1060');
+INSERT INTO "OdgledaniFilmovi" ("username","password",naziv,godina,zanr,"sifraFilma")
+VALUES ('marija','stankovic97','Judy','2019','romantika','1073');
+
+CREATE TABLE "Recenzije" (
+    "sifraFilma" text,
+    "username" text,
+    recenzija text,
+    datum date,
+    PRIMARY KEY ("sifraFilma",datum,recenzija))
+    WITH CLUSTERING ORDER BY (datum DESC);
+
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1000','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1000','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1000','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1001','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1001','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1001','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1002','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1002','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1002','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1003','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1003','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1003','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1004','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1004','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1004','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1005','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1005','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1005','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1006','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1006','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1006','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1007','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1007','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1007','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1008','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1008','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1008','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1009','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1009','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1009','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1010','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1010','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1010','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1011','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1011','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1011','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1012','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1012','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1012','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1013','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1013','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1013','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1014','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1014','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1014','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1015','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1015','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1015','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1016','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1016','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1016','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1017','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1017','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1017','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1018','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1018','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1018','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1019','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1019','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1019','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1020','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1020','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1020','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1021','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1021','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1021','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1022','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1022','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1022','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1023','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1023','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1023','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1024','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1024','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1024','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1025','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1025','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1025','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1026','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1026','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1026','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1027','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1027','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1027','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1028','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1028','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1028','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1029','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1029','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1029','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1030','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1030','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1030','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1031','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1031','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1031','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1032','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1032','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1032','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1033','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1033','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1033','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1034','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1034','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1034','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1035','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1035','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1035','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1036','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1036','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1036','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1037','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1037','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1037','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1038','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1038','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1038','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1039','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1039','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1039','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1040','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1040','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1040','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1041','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1041','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1041','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1042','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1042','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1042','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1043','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1043','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1043','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1044','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1044','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1044','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1045','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1045','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1045','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1046','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1046','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1046','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1047','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1047','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1047','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1048','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1048','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1048','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1049','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1049','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1049','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1050','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1050','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1050','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1051','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1051','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1051','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1052','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1052','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1052','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1053','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1053','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1053','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1054','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1054','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1054','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1055','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1055','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1055','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1056','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1056','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1056','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1057','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1057','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1057','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1058','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1058','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1058','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1059','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1059','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1059','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1060','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1060','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1060','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1061','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1061','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1061','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1062','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1062','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1062','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1063','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1063','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1063','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1064','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1064','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1064','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1065','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1065','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1065','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1066','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1066','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1066','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1067','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1067','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1067','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1068','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1068','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1068','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1069','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1069','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1069','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1070','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1070','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1070','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1071','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1071','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1071','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1072','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1072','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1072','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1073','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1073','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1073','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1074','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1074','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1074','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1075','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1075','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1075','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1076','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1076','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1076','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1077','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1077','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1077','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1078','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1078','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1078','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1079','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1079','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1079','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1080','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1080','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1080','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1081','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1081','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1081','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1082','nemanja','Film je predobar. Sve preporuke. Glumci su fenomenalni. Kraj nisam ni naslućivao.','2020-01-01');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1082','teodora','Više sam očekivala za ovako neki visokobudžetni film. Gluma neuverljiva, uspavala sam se dok sam gledala.','2019-12-29');
+INSERT INTO "Recenzije" ("sifraFilma","username",recenzija,datum)
+VALUES ('1082','milan','Film je opravdao očekivanja, jedva sam čekao da odgledam premijeru. Očekivao sam drugačiji kraj filma.','2019-12-30');

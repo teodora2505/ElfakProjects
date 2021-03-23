@@ -1,0 +1,7 @@
+use travelmania;
+db.Korisnici.remove({});
+db.Ponude.remove({});
+db.Recenzije.remove({});
+db.Rezervacije.remove({});
+db.Omiljeno.remove({});
+db.dropDatabase();

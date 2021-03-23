@@ -1,0 +1,153 @@
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\bin\Debug\eDnevnik.exe.config
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\bin\Debug\eDnevnik.exe
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\bin\Debug\eDnevnik.pdb
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\bin\Debug\Antlr3.Runtime.dll
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\bin\Debug\FluentNHibernate.dll
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\bin\Debug\Iesi.Collections.dll
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\bin\Debug\NHibernate.dll
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\bin\Debug\Remotion.Linq.dll
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\bin\Debug\Remotion.Linq.EagerFetching.dll
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\bin\Debug\Antlr3.Runtime.xml
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\bin\Debug\FluentNHibernate.xml
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\bin\Debug\Iesi.Collections.xml
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\bin\Debug\NHibernate.xml
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\bin\Debug\Remotion.Linq.xml
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\bin\Debug\Remotion.Linq.EagerFetching.xml
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.csprojAssemblyReference.cache
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.Form1.resources
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.Properties.Resources.resources
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.csproj.GenerateResource.cache
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.csproj.CoreCompileInputs.cache
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.csproj.CopyComplete
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.exe
+D:\Fax\III godina\VI semestar\Sistemi baza podataka\2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.pdb
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\bin\Debug\eDnevnik.exe.config
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\bin\Debug\eDnevnik.exe
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\bin\Debug\eDnevnik.pdb
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\bin\Debug\Antlr3.Runtime.dll
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\bin\Debug\FluentNHibernate.dll
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\bin\Debug\Iesi.Collections.dll
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\bin\Debug\NHibernate.dll
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\bin\Debug\Remotion.Linq.dll
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\bin\Debug\Remotion.Linq.EagerFetching.dll
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\bin\Debug\Antlr3.Runtime.xml
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\bin\Debug\FluentNHibernate.xml
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\bin\Debug\Iesi.Collections.xml
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\bin\Debug\NHibernate.xml
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\bin\Debug\Remotion.Linq.xml
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\bin\Debug\Remotion.Linq.EagerFetching.xml
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\obj\Debug\eDnevnik.csprojAssemblyReference.cache
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\obj\Debug\eDnevnik.Form1.resources
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\obj\Debug\eDnevnik.Properties.Resources.resources
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\obj\Debug\eDnevnik.csproj.GenerateResource.cache
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\obj\Debug\eDnevnik.csproj.CoreCompileInputs.cache
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\obj\Debug\eDnevnik.csproj.CopyComplete
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\obj\Debug\eDnevnik.exe
+C:\Users\neman\OneDrive\Desktop\eDnevnik\eDnevnik\eDnevnik\obj\Debug\eDnevnik.pdb
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\bin\Debug\eDnevnik.exe.config
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\bin\Debug\eDnevnik.exe
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\bin\Debug\eDnevnik.pdb
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\bin\Debug\FluentNHibernate.dll
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\bin\Debug\Iesi.Collections.dll
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\bin\Debug\NHibernate.dll
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\bin\Debug\Remotion.Linq.dll
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\bin\Debug\Remotion.Linq.EagerFetching.dll
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\bin\Debug\Antlr3.Runtime.xml
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\bin\Debug\FluentNHibernate.xml
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\bin\Debug\Iesi.Collections.xml
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\bin\Debug\NHibernate.xml
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\bin\Debug\Remotion.Linq.xml
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\bin\Debug\Remotion.Linq.EagerFetching.xml
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\obj\Debug\eDnevnik.csprojAssemblyReference.cache
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\obj\Debug\eDnevnik.Form1.resources
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\obj\Debug\eDnevnik.Properties.Resources.resources
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\obj\Debug\eDnevnik.csproj.GenerateResource.cache
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\obj\Debug\eDnevnik.csproj.CoreCompileInputs.cache
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\obj\Debug\eDnevnik.csproj.CopyComplete
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\obj\Debug\eDnevnik.exe
+C:\Users\Milan\Downloads\eDnevnik\eDnevnik\obj\Debug\eDnevnik.pdb
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\bin\Debug\eDnevnik.exe.config
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\bin\Debug\eDnevnik.exe
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\bin\Debug\eDnevnik.pdb
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\bin\Debug\Antlr3.Runtime.dll
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\bin\Debug\FluentNHibernate.dll
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\bin\Debug\Iesi.Collections.dll
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\bin\Debug\NHibernate.dll
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\bin\Debug\Remotion.Linq.dll
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\bin\Debug\Remotion.Linq.EagerFetching.dll
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\bin\Debug\Antlr3.Runtime.xml
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\bin\Debug\FluentNHibernate.xml
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\bin\Debug\Iesi.Collections.xml
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\bin\Debug\NHibernate.xml
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\bin\Debug\Remotion.Linq.xml
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\bin\Debug\Remotion.Linq.EagerFetching.xml
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.csprojAssemblyReference.cache
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.Form1.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaNastavnikPocetna.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaPrijavljivanja.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaRoditeljPocetna.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaUcenikPocetna.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.Properties.Resources.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.csproj.GenerateResource.cache
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.csproj.CoreCompileInputs.cache
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.csproj.CopyComplete
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.exe
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.pdb
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaNastavnikovoOdeljenje.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaNastaviKao.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaRazredniPocetna.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaNoviUčenik.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 2 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaRasporedCasova.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\bin\Debug\eDnevnik.exe.config
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\bin\Debug\eDnevnik.exe
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\bin\Debug\eDnevnik.pdb
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\bin\Debug\Antlr3.Runtime.dll
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\bin\Debug\FluentNHibernate.dll
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\bin\Debug\Iesi.Collections.dll
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\bin\Debug\NHibernate.dll
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\bin\Debug\Remotion.Linq.dll
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\bin\Debug\Remotion.Linq.EagerFetching.dll
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\bin\Debug\Antlr3.Runtime.xml
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\bin\Debug\FluentNHibernate.xml
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\bin\Debug\Iesi.Collections.xml
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\bin\Debug\NHibernate.xml
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\bin\Debug\Remotion.Linq.xml
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\bin\Debug\Remotion.Linq.EagerFetching.xml
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.csprojAssemblyReference.cache
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.Form1.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaAdministrator.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaNastaviKao.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaNastavnikPocetna.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaNoviUčenik.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaPrijavljivanja.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaRasporedCasova.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaRazredniPocetna.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaRoditeljPocetna.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaUcenikPocetna.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaNastavnikovoOdeljenje.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.Properties.Resources.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.csproj.GenerateResource.cache
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.csproj.CoreCompileInputs.cache
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.csproj.CopyComplete
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.exe
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.pdb
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaSviKorisnici.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaDodavanjeKorisnika.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaUceniciOdeljenja.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaOdeljenja.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaRoditeljUcenik.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaRazredneStaresine.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaPredmeti.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaDodajPredmet.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaPredstavniciOdeljenja.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaVrsiociFunkcija.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaPredmetiNaGodini.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaBrojeviTelefona.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaOdeljenjeRaspored.resources
+C:\Users\neman\OneDrive\Desktop\BAZE 3. faza\eDnevnik 3 faza\eDnevnik\eDnevnik\obj\Debug\eDnevnik.FormaDrziCas.resources
